@@ -26,10 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <header className="bg-blue-900 h-[50px] text-2xl ">
+        <header className="bg-blue-900 h-[70px] text-2xl ">
            <Link className="m-10" href="/">Home</Link>
           <Link className="m-10" href="/about">About</Link>
           <Link className="m-10"href="/contact">Contact</Link>
+          <Link className="m-10"href="/users">Users</Link>
         </header>
 
         {/* 👇 This is where your pages (like /about) will be rendered */}
